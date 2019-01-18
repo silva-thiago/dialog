@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './scss/App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './scss/App.css'
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
           <h3>Dialog</h3>
         </header>
       </div>
-    );
+    )
   }
 }
 
