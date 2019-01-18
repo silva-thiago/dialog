@@ -7,7 +7,7 @@ class Comment extends Component {
         <div className='card-body'>
           <blockquote className='blockquote mb-0'>
             <p className='card-text'>
-              {this.props.c}
+              {this.props.c.comment}
             </p>
             <footer className='blockquote-footer'>Someone famous in <cite title='Source Title'>User</cite></footer>
           </blockquote>
