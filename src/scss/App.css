@@ -1,13 +1,15 @@
 .App {
-  text-align: center;
+  background-color: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  /* text-align: center; */
+  min-height: 100vh;
 }
 
 .App .App-header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #282c34;
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,16 +17,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: calc(10px + 2vmin);
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  min-height: 100vh;
 }
 
 .App .App-header .App-logo {
   /* animation: App-logo-spin infinite 20s linear; */
-  height: 10vmin;
+  height: 15vmin;
   padding-top: 2em;
 }
 

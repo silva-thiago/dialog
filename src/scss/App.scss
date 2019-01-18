@@ -1,19 +1,19 @@
 .App {
-  text-align: center;
+  background-color: rgba(40, 44, 52, 1);
+  color: white;
+  font-size: calc(10px + 2vmin);
+  /* text-align: center; */
+  min-height: 100vh;
 
   .App-header {
     align-items: center;
-    background-color: #282c34;
-    color: white;
     display: flex;
     flex-direction: column;
-    font-size: calc(10px + 2vmin);
     justify-content: flex-start;
-    min-height: 100vh;
 
     .App-logo {
       /* animation: App-logo-spin infinite 20s linear; */
-      height: 10vmin;
+      height: 15vmin;
       padding-top: 2em;
     }
 
